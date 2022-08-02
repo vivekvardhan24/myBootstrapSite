@@ -1,0 +1,158 @@
+#title{
+    background-color: #ff4c68;
+}
+body{
+    font-family: montserrat;
+}
+h1{
+    font-family: "Montserrat-Black";
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    size: 1.5rem;
+}
+p{
+    color: #8f8f8f;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+#tindogLogo{
+    font-size: 2.5rem;
+    font-family: ubuntu;
+}
+
+#tindogTitle{
+    font-size: 4rem;
+    font-weight: 1800;
+    color: aliceblue;
+}
+
+#tindogImage{
+    transform: rotate(30deg);
+    width: 17%;
+    position: absolute;
+    right: 25%;
+}
+
+.nav-item{
+    font-family: montserrat;
+    padding: 0 2rem
+}
+
+/* Download Buttons */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* use icons */
+
+.use-icons{
+    color: #ef8172;
+    font-size: 3rem;
+    padding: 5% 0%;
+}
+
+.use-icons:hover{
+    color: #ff4c68;
+}
+
+.tindog-features{
+    text-align: center;
+}
+.features-container{
+    background-color: aliceblue;
+    position: relative;
+    z-index: 1;
+}
+#features{
+    padding: 100px 0;
+    background-color: aliceblue;
+    position: relative;
+}
+
+
+/* Testimonials */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: aliceblue;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 2% 3% 3% 0%;
+}
+
+/* press */
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+}
+
+.press-images{
+    width: 10%;
+    margin: 0% 3% 3% 2%;
+}
+
+/* pricing section */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/* responsive design */
+
+@media (max-width: 995px) {
+    #tindogImage{
+        transform: rotate(0deg);
+        position: static;
+    }
+    #tindogTitle{
+        text-align: center;
+    }
+}
+
+/* call to action */
+
+.action-items{
+    background-color: #ff4c68;
+    text-align: center;
+    color: aliceblue;
+}
+
+.footer-elements{
+    text-align: center;
+    background-color: #fff;
+}
+
+.footer-icons{
+    margin: 1% 1%;
+}
